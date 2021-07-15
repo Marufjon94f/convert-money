@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 20;
+}
+.currency-name {
+  margin: 0 auto;
+}
+fieldset {
+  display: flex;
+  border: none;
+}
+.currencies {
+  margin: 0 auto;
+  align-items: flex-start;
+}
+.input-currency {
+  margin-right: auto;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+      <div class="container">
+    <h1 class="currency-name">Currency Converter</h1>
+
+    <marquee>24/7 Online currency exchange converter</marquee>
+    <br /><br />
+
+    <form name="converter">
+      <fieldset>
+        <div class="uz">
+          <label>UZB Currency(Soum): </label>
+
+          <input type="number" name="soum" required />
+          <input class="input"
+            type="button"
+            value="Convert"
+            onclick="currencyConverter(converter.soum.value)"
+          /><br /><br />
+        </div>
+
+        <div class="currencies">
+          <label>Dollar(American): </label>
+          <input class="input-currency" id="dollar" /><br /><br />
+
+          <label>Rubl(Russia): </label>
+          <input class="input-currency" id="rubl" /><br /><br />
+
+          <label>Euro(EU): </label>
+          <input class="input-currency" id="euro" /><br /><br />
+
+          <input type="reset" value="Reset Form" />
+        </div>
+      </fieldset>
+    </div>
+    </form>
+
+    <script src="./script/script.js"></script>
+  </body>
+</html>
